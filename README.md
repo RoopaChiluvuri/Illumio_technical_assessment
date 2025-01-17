@@ -4,8 +4,8 @@
 
 This project solves Illumio's technical assessment by parsing flow log data, mapping each log entry to tags using a lookup table, and generating summary reports:
 
-1. Tag Counts: Counts of matches for each tag, including unmatched entries labeled as "Untagged."
-2. Port/Protocol Combination Counts: Counts of occurrences for each destination port and protocol combination.
+1. **Tag Counts**: Counts of matches for each tag, including unmatched entries labeled as "Untagged."
+2. **Port/Protocol Combination Counts**: Counts of occurrences for each destination port and protocol combination.
 
 The program is implemented in Python and ensures outputs are clear and easy to verify.
 
@@ -24,24 +24,6 @@ The program is implemented in Python and ensures outputs are clear and easy to v
 ---
 
 ## Project Structure
-
-illumio-assessment/
-├── src/
-│ └── flow_log_parser.py # Main Python script
-├── input/
-│ ├── flow_logs.txt # Sample flow log file
-│ ├── lookup_table.csv # Lookup table file
-├── output/
-│ ├── tag_counts.csv # Output: Tag counts
-│ ├── port_protocol_counts.csv # Output: Port/protocol counts
-├── tests/
-│ ├── test_flow_logs.txt # Test flow log file
-│ ├── test_lookup_table.csv # Test lookup table file
-│ ├── test_expected_tags.csv # Expected output for tag counts
-│ ├── test_expected_ports.csv # Expected output for port/protocol counts
-├── README.md # Project documentation
-
----
 
 ## Assumptions
 
