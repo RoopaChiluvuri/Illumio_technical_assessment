@@ -66,8 +66,8 @@ The tests/ folder contains sample test cases for validation.
 #### Files
 - test_flow_logs.txt: Sample flow logs for testing.
 - test_lookup_table.csv: Sample lookup table for testing.
--test_expected_tags.csv: Expected output for tag counts.
--test_expected_ports.csv: Expected output for port/protocol counts.
+- test_expected_tags.csv: Expected output for tag counts.
+- test_expected_ports.csv: Expected output for port/protocol counts.
 
 ### Steps to Test
 Replace the files in the input/ directory with test_flow_logs.txt and test_lookup_table.csv from the tests/ folder.
