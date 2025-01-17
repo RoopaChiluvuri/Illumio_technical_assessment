@@ -45,36 +45,48 @@ The program is implemented in Python and ensures outputs are clear and easy to v
 
 1. Clone this repository:
    ```bash
-   git clone <>
-   cd illumio-assessment
+   git clone <https://github.com/RoopaChiluvuri/Illumio_technical_assessment.git>
+   cd Illumio_technical_assessment
    ```
-
 Ensure the required input files (flow_logs.txt and lookup_table.csv) are in the input/ directory.
-How to Run
+
+
+### How to Run
 Execute the program from the root directory:
+```bash
 python3 src/flow_log_parser.py
+```
+
 Output files will be generated in the output/ directory:
+
 tag_counts.csv: Counts of matches for each tag and unmatched entries.
 port_protocol_counts.csv: Counts for each port/protocol combination.
 
-Testing
+## Testing
 The tests/ folder contains sample test cases for validation.
 
-Files
+#### Files
 test_flow_logs.txt: Sample flow logs for testing.
 test_lookup_table.csv: Sample lookup table for testing.
 test_expected_tags.csv: Expected output for tag counts.
 test_expected_ports.csv: Expected output for port/protocol counts.
-Steps to Test
+
+### Steps to Test
 Replace the files in the input/ directory with test_flow_logs.txt and test_lookup_table.csv from the tests/ folder.
 Run the program:
-
+```bash
 python3 src/flow_log_parser.py
+```
+
 Compare the generated files in output/ with the expected files:
 test_expected_tags.csv
 test_expected_ports.csv
+
+
 Known Limitations
-Only supports default flow log format (version 2).
-No support for custom log formats or dynamic protocol mappings.
+- Only supports default flow log format (version 2).
+- No support for custom log formats or dynamic protocol mappings.
+
+
 Contact
 If you have any questions or need further assistance, feel free to contact me at [roopasree2509@gmail.com].
