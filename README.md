@@ -23,8 +23,6 @@ The program is implemented in Python and ensures outputs are clear and easy to v
 
 ---
 
-## Project Structure
-
 ## Assumptions
 
 - **Flow Logs**: The program only supports the default format (version 2).
@@ -59,17 +57,17 @@ python3 src/flow_log_parser.py
 
 Output files will be generated in the output/ directory:
 
-tag_counts.csv: Counts of matches for each tag and unmatched entries.
-port_protocol_counts.csv: Counts for each port/protocol combination.
+- tag_counts.csv: Counts of matches for each tag and unmatched entries.
+- port_protocol_counts.csv: Counts for each port/protocol combination.
 
 ## Testing
 The tests/ folder contains sample test cases for validation.
 
 #### Files
-test_flow_logs.txt: Sample flow logs for testing.
-test_lookup_table.csv: Sample lookup table for testing.
-test_expected_tags.csv: Expected output for tag counts.
-test_expected_ports.csv: Expected output for port/protocol counts.
+- test_flow_logs.txt: Sample flow logs for testing.
+- test_lookup_table.csv: Sample lookup table for testing.
+-test_expected_tags.csv: Expected output for tag counts.
+-test_expected_ports.csv: Expected output for port/protocol counts.
 
 ### Steps to Test
 Replace the files in the input/ directory with test_flow_logs.txt and test_lookup_table.csv from the tests/ folder.
